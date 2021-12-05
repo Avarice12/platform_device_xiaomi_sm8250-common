@@ -15,3 +15,6 @@ persist.vendor.setWFDInfo.     u:object_r:vendor_wfd_sys_debug_prop:s0
 
 # SettingsLib
 settingsdebug.instant.packages u:object_r:settingslib_prop:s0
+
+# Hardware
+ro.hardware.chipname           u:object_r:exported_default_prop:s0

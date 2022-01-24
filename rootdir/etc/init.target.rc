@@ -69,6 +69,7 @@ on early-fs
 
 on fs
     start hwservicemanager
+    chown media audio /mnt/vendor/persist/audio
     chmod 644 /mnt/vendor/persist/audio/us_manual_cal
     mkdir /mnt/vendor/spunvm 0660 system system
     mount_all /vendor/etc/fstab.qcom --early

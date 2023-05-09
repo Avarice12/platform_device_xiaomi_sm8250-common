@@ -447,7 +447,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    init.xiaomi.rc \
     fstab.qcom \
     fstab.qcom_ramdisk \
     ueventd.qcom.rc
